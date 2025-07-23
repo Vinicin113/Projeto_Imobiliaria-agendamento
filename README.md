@@ -1,26 +1,27 @@
-# 🏢 Imobiliária - Agendamento de Avaliações
+# Imobiliária - Agendamento de Avaliações
 
-Projeto final da disciplina de **Linguagem de Programação 1**. O objetivo é implementar um sistema capaz de gerar automaticamente uma agenda de avaliações de imóveis, distribuindo-os entre corretores avaliadores de forma eficiente e organizada.
+Projeto final da disciplina de **Linguagem de Programação 1**.
+O objetivo é implementar um sistema capaz de gerar automaticamente uma agenda de avaliações de imóveis, distribuindo-os entre corretores avaliadores de forma eficiente e organizada.
 
 ---
 
-## 📋 Descrição
+##  Descrição
 
 O programa:
 
 - Lê informações de corretores, clientes e imóveis da entrada padrão.
 - Distribui os imóveis entre os avaliadores de forma **round-robin**.
 - Gera a agenda de cada corretor considerando:
-  - Sua localização inicial.
-  - O tempo de deslocamento (cálculo com a fórmula de Haversine).
-  - A duração da visita (1h por imóvel).
+- Sua localização inicial.
+- O tempo de deslocamento (cálculo com a fórmula de Haversine).
+- A duração da visita (1h por imóvel).
 - Exibe a agenda de avaliações formatada corretamente.
 
 ---
 
-## 💡 Como funciona
+##  Como funciona
 
-### ✔️ Entrada esperada
+###  Entrada esperada
 
 Redirecionamento via terminal:
 
@@ -36,7 +37,7 @@ Formato da entrada:
 5. Número de imóveis
 6. Lista de imóveis
 
-### ✔️ Saída esperada
+###  Saída esperada
 
 A agenda dos corretores avaliadores, no formato:
 
@@ -48,7 +49,7 @@ HH:MM Imóvel [ID]
 
 ---
 
-## 🔧 Compilação
+##  Compilação
 
 O projeto pode ser compilado com `g++` 11 ou superior:
 
@@ -72,48 +73,7 @@ make clean
 
 ---
 
-## 🗂️ Estrutura dos Arquivos
-
-```
-imobiliaria/
-├── corretor.h / .cpp      # Classe Corretor
-├── cliente.h / .cpp       # Classe Cliente
-├── imovel.h / .cpp        # Classe Imóvel
-├── agenda.h / .cpp        # Lógica de agendamento
-├── main.cpp               # Leitura da entrada e chamada do sistema
-└── Makefile               # Compilação automatizada
-```
-
----
-
-## 📎 Exemplos de Execução
-
-```bash
-./imobiliaria < teste1_entrada.txt > minha_saida.txt
-diff minha_saida.txt teste1_saida.txt
-```
-
-Se o comando `diff` não retornar nada, a saída está correta ✅.
-
----
-
-## 🧪 Testes
-
-Você pode usar os arquivos de teste fornecidos pelo professor:
-
-- `teste1_entrada.txt`
-- `teste2_entrada.txt`
-- `teste3_entrada.txt`
-
-E compará-los com as respectivas saídas esperadas:
-
-```bash
-diff minha_saidaX.txt testeX_saida.txt
-```
-
----
-
-## ✅ Requisitos Atendidos
+##  Requisitos Atendidos
 
 - [x] Código modularizado (.h/.cpp)
 - [x] Makefile funcional
@@ -125,10 +85,8 @@ diff minha_saidaX.txt testeX_saida.txt
 
 ---
 
-## 👨‍💻 Autoria
+ ## Projeto desenvolvido por:
 
-Projeto desenvolvido por:
-
-- [Seu Nome Aqui]
+- Vinicius Marques de Almeida
 - Disciplina: **Linguagem de Programação 1**
-- Curso: Tecnologia da Informação / Ciência da Computação
+- Curso: Tecnologia da Informação 
