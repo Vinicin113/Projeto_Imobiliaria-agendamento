@@ -73,18 +73,6 @@ make clean
 
 ---
 
-##  Requisitos Atendidos
-
-- [x] Código modularizado (.h/.cpp)
-- [x] Makefile funcional
-- [x] Leitura da entrada via `cin`
-- [x] Escrita exata no formato da especificação
-- [x] Algoritmo de vizinho mais próximo
-- [x] IDs autoincrementais
-- [x] Formato de hora `HH:MM` com zero à esquerda
-
----
-
  ## Projeto desenvolvido por:
 
 - Vinicius Marques de Almeida
